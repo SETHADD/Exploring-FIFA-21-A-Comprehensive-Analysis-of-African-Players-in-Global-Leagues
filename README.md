@@ -17,7 +17,8 @@ This data was to help in cleaning a messy data and the following were some of th
 ## Skills Demonstrated
 1. Before loading the data
  * the CSV file was opened using Notepad and save the file with the 'ANSI' encoding.This is to ensure that all non-English characters displays properly in Excel.
-1b. The CSV file was loaded into Excel and the following was done.
+
+  1b. The CSV file was loaded into Excel and the following was done.
  * Duplicates were checked and fortunately there were no duplicates.
  * Trim function was used to remove spaces before and after values in some columns.
  * Left function was used to extract the numbers from the skill moves and IR columns.
@@ -30,11 +31,12 @@ This data was to help in cleaning a messy data and the following were some of th
 
 ## Data Transformation
 Both the clean data and the data on only African players were imported into Power Bi and the data was further transformed by removing some errors and further deleting some columns that were not visualized.
-DAX (Calculate) was use to create a new measure of the total wages of Brazilian players.
+DAX (Calculate) was utilized to create a new measure of the total wages of Brazilian players.
 
 ## Modeling
 A one-to-one relationship was setup between the two tables.
 A table was created for all the New measures.
+
 ![alt text](https://github.com/SETHADD/Exploring-FIFA-21-A-Comprehensive-Analysis-of-African-Players-in-Global-Leagues/blob/main/Data%20model%20(power%20bi).png)
 
 ## Analysis and Viualization
