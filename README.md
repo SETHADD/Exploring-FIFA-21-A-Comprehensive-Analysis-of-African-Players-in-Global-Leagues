@@ -49,6 +49,8 @@ The visualization has;
  * A map.
  * A bar chart of the sum of wages by country andd other important visuals.
  
+ #### interact with the dashboard [here](https://app.powerbi.com/links/gJYuubAype?ctid=6e3be819-d1ec-4fcf-ad4b-9dc05351a348&pbi_source=linkShare)
+ 
 ![alt text](https://github.com/SETHADD/Exploring-FIFA-21-A-Comprehensive-Analysis-of-African-Players-in-Global-Leagues/blob/main/Power%20Bi%20Visuals.png)
 
 ## Conclusion and Recommendation
