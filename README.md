@@ -1,27 +1,27 @@
 # Introduction
 Kaggle is notorious for providing pure, clean datasets ready for analysis and model building.
 
-This particular data is a very messy and raw dataset of EA Sorts hit FIFA series - FIFA21, which was scraped from sofifa.com.
+This particular data was a very messy and raw dataset of EA Sorts hit FIFA series - FIFA21, which was scraped from sofifa.com.
 
-The idea behind this data was definitely to learn a lot about data cleaning, but I took it up a notch to visualize the data of the African players in the data.
+The idea behind this data was definitely to learn about data cleaning, but I took it up a notch to visualize the data of the African players in the data.
 
 ![alt text](https://github.com/SETHADD/Exploring-FIFA-21-A-Comprehensive-Analysis-of-African-Players-in-Global-Leagues/blob/main/FIFA-21-freezing.jpeg)
 
 ## Problem Statement
-This was a data to learn about cleaning a messy data and the following were some of the problems with the data
+This data was to help in cleaning a messy data and the following were some of the problems with the data
  * Some of the columns had data types that made them difficult to work with eg. the height and weight columns were not in numerical forms
- * some of the columns had Remove unnecessary newline characters that needed to be trimmed.
- * 'Value', 'Wage' and "Release Clause' are string columns because they had M and K attached to some of the values.
- * Some columns have 'star' characters.Those columns had to be stripped of the stars and make the columns numerical etc.
+ * some of the columns had unnecessary newline characters that needed to be trimmed.
+ * 'Value', 'Wage' and "Release Clause' were string columns because they had M and K attached to some of the values.
+ * Some columns have 'star' characters.Those columns had to be stripped of the stars and make the columns numerical.
 
 ## Skills Demonstrated
 1. Before loading the data
- * Open the CSV file using Notepad.Click "File > Save As" and in the dialog window that appears I selected "ANSI" from the "Encoding" field before saving.This is to ensure that all non-English characters displays properly in Excel.
+ * the CSV file was opened using Notepad and save the file with the 'ANSI' encoding.This is to ensure that all non-English characters displays properly in Excel.
 1b. The CSV file was loaded into Excel and the following was done.
  * Duplicates were checked and fortunately there were no duplicates.
  * Trim function was used to remove spaces before and after values in some columns.
  * Left function was used to extract the numbers from the skill moves and IR columns.
- * With If and Len functions, values in columns with 'K' and 'M' were multiplied by 1000 and 1000000 respectively.
+ * With 'IF' and 'LEN' functions, values in columns with 'K' and 'M' were multiplied by 1000 and 1000000 respectively.
  * unneccessary columns were deleted
  
 2. The data was saved and imported to the SQL Server Management Studio to extract all the details of players from Africa.
@@ -51,7 +51,5 @@ The visualization has;
 
 ## Conclusion and Recommendation
 
-Africa indeed has great wealth of football talent just like Brazil but is not harnessing a lot money from the sale and most importantly the worth of the players.
-
-As a recommendation, the Confederation of African Football (CAF) can contact the Brazilian Football Confederation to get insights on what they do differently and  turn teach their members to help Africa make the most of their talent.
+The project demonstrates that Africa has a wealth of football talent that is not fully harnessed in terms of financial value. To address this, it is recommended that the Confederation of African Football (CAF) contact the Brazilian Football Confederation for insights on how they manage their football talent and generate revenue.
 
